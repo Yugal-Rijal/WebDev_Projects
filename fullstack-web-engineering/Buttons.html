@@ -6,6 +6,13 @@
         border-radius: 30px;
         cursor: pointer;
         margin: 30px;
+        transition: opacity 0.3s, box-shadow 0.3s;
+        
+    }
+
+    .subscribe-button:hover {
+        opacity: 0.7;
+        box-shadow: 7px 7px 10px rgba(77, 72, 72, 0.5);
     }
     </style>
 
@@ -19,6 +26,18 @@
         height: 55px;
         width: 100px;
         font-size: 20px;
+        transition: background-color 1s;
+        transition: color 1s;
+    }
+
+    .join-button:hover {
+        background-color: rgb(4, 182, 252);
+        color: rgb(126, 0, 0);
+        opacity: 1;
+    }
+
+    .join-button:active {
+        background-color:rgb(69, 80, 90)
     }
     </style>
     
@@ -49,8 +68,16 @@
             margin-top: 40px;
             margin-left: 60px;
 
+            
 
         }
+        .apply-button:hover {
+                background-color: rgb(255, 255, 0);
+            }
+            .apply-button:active {
+                background-color: rgba(169, 0, 0, 0.788);
+            }
+
     </style>
 
 <button class="subscribe-button" style="font-size: 24px; padding: 10px 20px;"> SUBSCRIBE </button>
